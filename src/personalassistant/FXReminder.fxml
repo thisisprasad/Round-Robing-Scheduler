@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="29.0" prefHeight="17.0" prefWidth="35.0" text="Title: " />
+      <TextField fx:id="titlefld" layoutX="67.0" layoutY="25.0" prefHeight="25.0" prefWidth="243.0" text="Title here..." />
+      <Label layoutX="18.0" layoutY="65.0" text="Set Time (hr : min : sec): " />
+      <TextField layoutX="147.0" layoutY="61.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="189.0" layoutY="65.0" text=":" />
+      <TextField layoutX="199.0" layoutY="61.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="240.0" layoutY="65.0" text=":" />
+      <TextField layoutX="250.0" layoutY="61.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="14.0" layoutY="95.0" text="Pick a Date: " />
+      <DatePicker layoutX="82.0" layoutY="91.0" />
+      <Label layoutX="14.0" layoutY="135.0" text="Brief Comments: " />
+      <TextArea layoutX="105.0" layoutY="135.0" prefHeight="96.0" prefWidth="183.0" />
+      <Button layoutX="20.0" layoutY="281.0" mnemonicParsing="false" text="Set Reminder" textAlignment="CENTER" />
+      <Button layoutX="130.0" layoutY="281.0" mnemonicParsing="false" text="Show Reminders" />
+      <Button layoutX="20.0" layoutY="318.0" mnemonicParsing="false" text="Show Reminders" />
+   </children>
+</Pane>

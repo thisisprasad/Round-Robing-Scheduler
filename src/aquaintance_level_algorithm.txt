@@ -1,0 +1,20 @@
+Acquaintance level algorithm analysis. Whatever comes to my mind.
+
+Rating the acquaintance level on a scale of 10
+Considering some of the attributes->
+    1)  when you see a person you can obviously tell the gender of the person.
+    2)  You get to know the name of the person from anyone. Maybe its your friends, you read it somewhere, bla etc..
+    3)  Designation can be known from a lot of means. From which source you get to know that has a very crucial part as far your acquaintanceLevel factor is concerened.
+        If it is from any social networking community then there is a kind of directed edge between you and that person. The originating from you.---->>>>Kind of some networking graph models.
+        Similar things can be said about the factors such as company he's working in, occupation.
+    4)  You don't get to know anyone's salary. Try if you get this data from somewhere
+    5)  knowing from which state, city, country will obviously contribute to the acquaintanceLevel factor.
+        You know the specific address of that person, Boy!!!!! you have really tried to get to know that person
+        heavy impact in the acquaintanceLevel factor.
+
+How to assign the weights to each instance member to contribute to the ACQLevel factor.
+    if (1) - 0.7
+    if (2) - 0.3
+    if (3) - check the social media info you posses
+
+Code the beginning and basic part of this
